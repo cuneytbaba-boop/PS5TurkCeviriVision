@@ -15,6 +15,9 @@ targets:
     type: application
     platform: iOS
 
+    info:
+      path: Info.plist
+
     sources:
       - path: CameraTextRecognizer.swift
       - path: CameraPreview.swift
@@ -24,5 +27,3 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.cuneytbaba.PS5TurkCeviriVision
-        INFOPLIST_KEY_NSCameraUsageDescription: "PS5 altyazılarını algılamak için kameraya ihtiyaç vardır."
-        INFOPLIST_KEY_CFBundleDisplayName: "PS5 Türkçe Çeviri"
